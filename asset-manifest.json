@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gnwife/static/css/main.dd57131f.css",
+    "main.js": "/gnwife/static/js/main.2b0670d9.js",
+    "static/js/453.789e939d.chunk.js": "/gnwife/static/js/453.789e939d.chunk.js",
+    "index.html": "/gnwife/index.html",
+    "main.dd57131f.css.map": "/gnwife/static/css/main.dd57131f.css.map",
+    "main.2b0670d9.js.map": "/gnwife/static/js/main.2b0670d9.js.map",
+    "453.789e939d.chunk.js.map": "/gnwife/static/js/453.789e939d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd57131f.css",
+    "static/js/main.2b0670d9.js"
+  ]
+}
