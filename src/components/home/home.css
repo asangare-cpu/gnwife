@@ -1,0 +1,41 @@
+header{
+    background-color: gray;
+    padding-bottom: 0.5px;
+}
+/*Slogan section*/
+.slogan{
+  display: flex;
+}
+.slogan section{
+  background-color: rgb(30, 211, 126);
+  width: 40%;
+  height: 40vw;
+}
+.slogan aside{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(81, 81, 219);
+  width: 60%;
+  height: 40vw;
+}
+.slogan aside h1{
+  font-weight: 300;
+  text-align:center;
+  font-size: 2.5em;
+  color: whitesmoke;
+
+}
+/*Services section*/
+.service-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.service-box-type{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 1vw;
+}

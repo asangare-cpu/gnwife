@@ -1,0 +1,30 @@
+/*Footer*/
+.footer{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(174, 226, 132);
+}
+
+.footer section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer section aside{
+  float: right;
+  margin-right: 2.5%;
+  padding: 10px;
+  border-radius: 0 25px 0 25px ;
+}
+.footer section aside a {
+  margin-left: 20px;
+}
+.footer i {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+/*Links*/
+.footer-link{
+  margin-bottom: 5px;
+}

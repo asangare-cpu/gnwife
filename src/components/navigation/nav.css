@@ -1,0 +1,24 @@
+/*Navigation css*/
+nav {
+  display :flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5% 15px;
+}
+nav section{
+   width: 60%;
+}
+
+aside{
+  float: right;
+}
+nav p{
+  font-family: fantasy;
+  font-size:larger;
+  margin-bottom: 0;
+}
+nav i{
+  font-family: fantasy;
+  font-size:small;
+  margin-top: 0;
+}

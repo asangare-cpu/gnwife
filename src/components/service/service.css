@@ -1,0 +1,20 @@
+._service{
+  display: flex;
+  margin-top: 1vw;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25%;
+  min-height: 20vw;
+  box-shadow: 0px 5px 5px 0px;
+}
+._service h3{
+  margin-left: 8%;
+}
+._service section button{
+  padding: 8px 15px 8px 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-right: 10%;
+  margin-left: 5%;
+  float: right;
+}
