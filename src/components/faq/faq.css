@@ -1,0 +1,28 @@
+.faq{
+  margin: 10px 10% 10px 10%;
+}
+._faq h1{
+  margin-left: 10%;
+}
+.faq article{
+  /* background-color: cadetblue; */
+  min-height: 45px;
+  margin-left: 35px;
+  width: 60%;
+  text-align: justify;
+  font-size: 17px;
+  line-height: 1.5;
+}
+.faq section{
+  display: flex;
+}
+.faq section button{
+  padding: 0px;
+  border: none;
+  background-color: white;
+}
+.faq section aside{
+  padding: 10px;
+  font-size: 23px;
+}
+/*Faq article*/

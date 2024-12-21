@@ -2,47 +2,40 @@ import Footer from "../footer/Footer";
 import Nav from "../navigation/Nav";
 import Service from "../service/Service";
 import Comment from "../comment/Comment";
-
+import welcomeImg from "../../assets/images/painting-4916390_1280.jpg"
 import './home.css'
+import Special from "../service/Special";
+import Achieve from "../service/Achieve";
+
 function Home(){
   return(
-    <main>
+    <main className="main-home">
       <header>
         <Nav/>
       </header>
-      <div className="slogan">
-        <section></section>
-        <aside>
-          <h1>At Gnwife Master Edits,  every writing resonates with the depth, authencity
-            and emotion that only human touch can bring.
+      <section className="main-container">
+        <div className="slogan">
+          <h1>Make Every writing sounds unique and touches Human sensibility.
           </h1>
-        </aside>
-      </div>
-      <div className="service-box">
-        <h1>Academic writing & editing</h1>
-        <div className="service-box-type">
-          <Service typeService="Standard" serviceContent={["Quick","Unique","Make sens","clear"]}/> 
-          <Service typeService="Medium" serviceContent={["Quick","Unique","Make sens","clear"]}/> 
-          <Service typeService="Premium" serviceContent={["Quick","Unique","Make sens","clear"]}/> 
+          <img src={welcomeImg} alt="Home page"></img>
         </div> 
-      </div>   
-      <div className="service-box">
-        <h1>Academic writing & editing</h1>
-        <div className="service-box-type">
-          <Service typeService="Standard" serviceContent={["Quick","Unique","Make sens","clear"]}/> 
-          <Service typeService="Medium" serviceContent={["Quick","Unique","Make sens","clear"]}/> 
-          <Service typeService="Premium" serviceContent={["Quick","Unique","Make sens","clear"]}/> 
-        </div> 
-      </div>   
-      <div className="service-box">
-        <h1>Academic writing & editing</h1>
-        <div className="service-box-type">
-          <Service typeService="Standard" serviceContent={["Quick","Unique","Make sens","clear"]}/> 
-          <Service typeService="Medium" serviceContent={["Quick","Unique","Make sens","clear"]}/> 
-          <Service typeService="Premium" serviceContent={["Quick","Unique","Make sens","clear"]}/> 
-        </div> 
-      </div>   
-      <Comment/>
+        <div className="_achieve">
+          <p>Writing is a master piece, we can help you in every steps.</p>
+          <Achieve/>
+        </div>
+        <div>
+          <p
+            style={{fontSize:35, color:"darkgray"}}
+          >Do you want an Edit ?</p>
+          <div className="service-container">
+            <Special service="Personal Writing & Editing"/>
+            <Special service="Professional Writing & Editing"/>
+            <Special service="Creative Writing & Editing"/>
+            <Special service="Special Services"/>
+          </div>
+        </div>
+        <Comment/>
+      </section>
       <Footer/>
     </main>
   )

@@ -4,10 +4,11 @@ import { FaFacebook, FaWhatsapp, FaTiktok, FaInstagram, FaTwitter} from "react-i
 
 function Footer(){
   let currentYear = new Date().getFullYear()
-  const items = ["Services", "About us", "Why gnwife?", "Contact us", 
+  const navAccess = ["/","/gnwife/service","/","/gnwife/contact-us","/","/gnwife/faq"]
+  const items = ["About us","Services", "Why gnwife?", "Contact us", 
     "Cookies & privacy policy", "FAQ"]
   const linksFooter = items.map((item, index)=>
-    <li className="footer-link"><Link key={index}>{item}</Link></li>
+    <li className="footer-link"><Link key={index} to={navAccess[index]}>{item}</Link></li>
 )
   return(
     <div className="footer">

@@ -1,0 +1,51 @@
+.contact-us{
+  display: flex;
+  height: 80vh;
+  width: 100%;
+  background-color: dimgray;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+}
+.contact-us article{
+  width: 35%;
+  height: 35vw;
+  background-color: aquamarine;
+}
+
+.contact-us aside {
+  background-color: bisque;
+  width: 55%;
+  height: 35vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-us aside form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.contact-us aside form input, label{
+  padding: 8px;
+  width: 60%;
+}
+
+.contact-us aside form textarea{
+  width: 60%;
+  min-height: 100px;
+  padding: 8px;
+}
+
+.contact-us aside form button{
+  padding: 8px;
+  margin-top: 13px;
+  font-size: 15px;
+  background-color: rgb(230, 217, 146);
+  border-radius: 15px;
+  width: 30%;
+}
+

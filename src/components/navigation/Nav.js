@@ -3,12 +3,15 @@ import styled from "styled-components"
 import './nav.css'
 import { useState } from "react"
 function Nav(){
+  const currentLink = window.location.href
+  const navAccess = ["/gnwife",currentLink,"/","/"]
   const navItems = ["Home","Services", "Why gnwife?", "About us"]
   const items = navItems.map((item, index)=>
-  <NavLink key={index}>
+  <NavLink key={index} to={navAccess[index]}>
     {item}
   </NavLink>)
   return(
+    <>
     <nav>
       <div>
         <MyLink to="/gnwife" >
@@ -17,18 +20,19 @@ function Nav(){
         </MyLink>
       </div>
       <section>
-      {items}
-      <aside>
-        <Link>Login</Link>
-      </aside>
+        {items}
+        <aside>
+          <Link>Login</Link>
+        </aside>
       </section>
     </nav >
+    </>
   )
 }
 
 export default Nav;
 
-const MyLink = styled(Link)`
+export const MyLink = styled(Link)`
   text-decoration : none;
 `
 const NavLink = styled(Link)`
