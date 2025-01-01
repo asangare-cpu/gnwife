@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/gnwife/static/css/main.dd57131f.css",
-    "main.js": "/gnwife/static/js/main.2b0670d9.js",
+    "main.css": "/gnwife/static/css/main.84a301fe.css",
+    "main.js": "/gnwife/static/js/main.2e6580b7.js",
     "static/js/453.789e939d.chunk.js": "/gnwife/static/js/453.789e939d.chunk.js",
+    "static/media/black-lady-creats-public.jpg": "/gnwife/static/media/black-lady-creats-public.123068a81076dae9545e.jpg",
+    "static/media/typewriter-old.jpg": "/gnwife/static/media/typewriter-old.7b3796ea442e95f6aa61.jpg",
+    "static/media/painting-4916390_1280.jpg": "/gnwife/static/media/painting-4916390_1280.9cc0449813067feb0102.jpg",
     "index.html": "/gnwife/index.html",
-    "main.dd57131f.css.map": "/gnwife/static/css/main.dd57131f.css.map",
-    "main.2b0670d9.js.map": "/gnwife/static/js/main.2b0670d9.js.map",
+    "main.84a301fe.css.map": "/gnwife/static/css/main.84a301fe.css.map",
+    "main.2e6580b7.js.map": "/gnwife/static/js/main.2e6580b7.js.map",
     "453.789e939d.chunk.js.map": "/gnwife/static/js/453.789e939d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd57131f.css",
-    "static/js/main.2b0670d9.js"
+    "static/css/main.84a301fe.css",
+    "static/js/main.2e6580b7.js"
   ]
 }
