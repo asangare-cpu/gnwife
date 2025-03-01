@@ -14,7 +14,7 @@ function Nav(){
     <>
     <nav>
       <div>
-        <MyLink to="/gnwife" >
+        <MyLink to="/gnwife">
           <p>GNWIFE </p>
           <i>Master Edit</i>
         </MyLink>
